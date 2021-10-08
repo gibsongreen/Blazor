@@ -2,11 +2,14 @@
 
 <h1>Counter</h1>
 
+<!-- prints UI for user to increment-->
 <p>Current count: @currentCount</p>
 <p>Clicking on the button below will result in the counter being incremented by 10</p>
 
+<!-- button declaration for incrementing-->
 <button class="btn btn-primary" @onclick="IncrementCount">Increment Counter</button>
 
+<!-- button initialized to 0, getter and setter allows for value to increment by 10 after button push-->
 @code {
     private int currentCount = 0;
 
