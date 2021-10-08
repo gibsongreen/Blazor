@@ -14,3 +14,10 @@ This page takes user input, stores the information, and outputs the result. It r
 
 To-List:
 This page builds on I/O processing and builds a to-do list for the user to add things to do, increases the list size, and has the ability to mark finished tasks. 
+
+Resources Utilized in Development:
+https://dotnet.microsoft.com/learn/aspnet/blazor-tutorial/intro
+
+https://azure.microsoft.com/en-us/free/students/
+
+https://devblogs.microsoft.com/aspnet/azure-static-web-apps-with-blazor/
