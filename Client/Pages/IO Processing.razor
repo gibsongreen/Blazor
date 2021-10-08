@@ -3,17 +3,19 @@
 <h1>IPO</h1>
 
 <p>Input prompt </p>
-
+<!-- sets up UI to promote user to enter a string of integer type-->
 <input @bind="InputString "/>
 
+<!-- When button clicked, processes data to manipulate-->
 <button class="btn btn-primary" @onclick="DoProcessing">Do it</button>
 
+<!-- Prints the output, takes the input and mulitplies value by 2-->
 <p>Output: @OutputString </p>
 
 @code
 
 {
-
+<!-- gets and sets the input string and the output string, then processes the data, multyiplies and saves to output-->
     private string InputString { get; set; }
 
     private string OutputString { get; set; }
